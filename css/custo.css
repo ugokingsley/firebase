@@ -1,0 +1,67 @@
+body, html {
+    color: #212121;
+    font: 400 16px/24px Roboto,sans-serif;
+  }
+
+  #tosin1{
+    background: #039BE5;
+    color:#FFFFFF;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 52px;
+    margin: 0;
+    padding-top: 88px;
+ 
+}
+
+#div1{
+  background: url(img/bak.png) no-repeat 328px 0;
+}
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+
+.row{
+  text-align: center;
+}
+
+.jumbotron,#tosin1,#tosin2,#tosin3{
+padding-left: 60px;
+}
+
+
+
+@media only screen and (max-device-width: 780px) {
+
+#div1 img{
+  display: none;
+}
+.jumbotron{
+  margin-bottom: 5px;
+}
+
+}
+
+
+p{
+	font-size: 32px;
+	line-height: 40px;
+}
+
+img #img1{
+	 margin: 0 0 0 80px;
+	
+}
+#tosin2{
+	background:#FFFFFF;
+}
+
+button:{
+	color:#039BE5;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+	padding: 8px 16px;
+}
